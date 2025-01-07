@@ -143,7 +143,7 @@
   padding-right: 10px;
 }
 .first-section p {
-  font-size: 18px;
+  font-size: 24px;
 }
 .first-section .like-search {
   max-width: 960px;
@@ -361,7 +361,7 @@
 }
 .third-section .teg-p-thrid p {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   display: inline-block;
   position: relative;
   cursor: pointer;
@@ -412,7 +412,8 @@
   height: auto;
 }
 .third-section .cars-list .car-popular .middle-carpopular {
-  background-color: #050B20;
+  background-color: rgba(5, 11, 32, 0.862745098);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Matnga soya qo'shish */
   color: white;
   padding-left: 20px;
   padding-right: 20px;
@@ -439,6 +440,53 @@
 }
 .third-section .cars-list .car-popular:hover {
   transform: scale(1.1);
+}
+
+.fourth-section {
+  font-family: DM Sans;
+  background-color: #F9FBFC;
+  max-width: 1800px;
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+.fourth-section .title-choose {
+  text-align: center;
+  font-size: 40px;
+}
+.fourth-section .content-why {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 769px) and (max-width: 1320px) {
+  .fourth-section .content-why {
+    flex-wrap: wrap;
+    justify-content: center;
+    -moz-column-gap: 100px;
+         column-gap: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .fourth-section .content-why {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .fourth-section .content-why div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+.fourth-section .content-why div {
+  height: 195px;
+  width: 311px;
+}
+.fourth-section .content-why div p {
+  font-size: 15px;
 }
 
 * {
