@@ -1,0 +1,99 @@
+.first-section{
+    background-color: #EEF1FB;
+    height: 88.7vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    font-family: $main-font;
+    @media (min-width: 769px) and (max-width: 1320px) {
+       .like-search{
+        gap: 60px !important;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 98% !important;
+       } 
+    }
+    @media (max-width:768px) {
+        justify-content: flex-start;
+        padding-top: 80px;
+        gap: 20px;
+        h1{
+            font-size: 40px !important;
+            padding-top: 55px;
+            padding-bottom: 30px;
+        }
+    }
+    h1{
+        font-size: 70px;
+        padding-bottom: 30px;
+        padding-top: 70px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .like-search{
+        max-width: 960px;
+        width: 100%;
+        height: 75.75px;
+        border-radius: 80px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        padding-left: 30px;
+        position: relative;
+        margin-bottom: 40px;
+        @media (max-width:768px){
+           width: 98% ;
+        }
+        .circle-search{
+            background-color: #405FF2;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            right: 0;
+            margin-right: 20px;
+            cursor: pointer;
+            transition: 0.5s;
+          
+            .bx-search{
+                color: white;
+                font-size: 32px;
+            }
+        } 
+         .circle-search:hover{
+               background-color: red;
+               transform: scale(1.2);
+            }
+        p{
+
+            cursor: pointer;
+            @media (max-width:768px){
+                display: none;
+
+            }
+          
+            span{
+                color: rgba(0, 0, 0, 0.473);
+                font-size: 20px;
+                padding-right: 15px;
+            }
+        }
+        p:hover{
+            color: rgba(0, 0, 0, 0.829);
+        }
+
+    }
+    .rasm-avto{
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}

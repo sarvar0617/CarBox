@@ -1,0 +1,123 @@
+.header{
+   
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 100%;
+    justify-content: space-between;
+    @media (min-width:769px) and (max-width:1320px) {
+        padding-left: 10px;
+        padding-right: 10px;
+      .nav{
+        justify-content: space-between;
+      
+        .logo{
+            img{
+                width: 100%;
+                height: auto;
+            }
+            .number-phone{
+                display: none;
+            }
+        
+        }
+      .list-navbar{
+                display: none !important;
+            }
+      }
+      .menu_icon{
+        display: block !important;
+        margin-left: 20px;
+      }
+
+    }
+    @media (max-width:768px) {
+        padding-left: 10px;
+        padding-right: 10px;
+        .nav{
+            justify-content: space-between;
+          
+            .logo{
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+                .number-phone{
+                    display: none;
+                }
+            
+            }
+          .list-navbar{
+                    display: none !important;
+                }
+          }
+          .menu_icon{
+            display: block !important;
+            margin-left: 20px;
+          }
+    }
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        font-family: $main-font;
+        height: 103px;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+       
+            
+        
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .list-navbar{
+            display: flex;
+            list-style-type: none;
+            gap: 20px;
+            font-size: 18px;
+            li{
+                cursor: pointer;
+    
+            }
+            li:hover{
+                color: rgb(73, 73, 73);
+            }
+            
+            
+        }
+        .submit-listing{
+                width: 142.86px;
+                height: 47.75px;
+                top: 28px;
+                border-radius: 16px;
+                text-decoration: none;
+                color: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 18px;
+                border: 1px solid black;
+                transition: 0.5s;
+    
+    
+            }
+            .submit-listing:hover{
+                background-color:#3498db;
+                color: white;
+                border: #3498db solid 1px;
+                transform: scale(1.2);
+            }
+          
+}
+           .menu_icon {
+              font-size: 40px;
+              display: none;
+            cursor: pointer;
+  }
+}
+
+  
