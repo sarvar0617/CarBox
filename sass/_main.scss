@@ -609,7 +609,19 @@
 }
 .seventh-section{
     font-family: $main-font;
+    .title-team{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 40px;
+    }
     .temates{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        @media (max-width:768px) {
+
+        }
         div{
             background-size: cover;
             background-position: center;
@@ -618,10 +630,164 @@
             border-radius: 16px;
             text-align: center;
             padding-top: 20px;
+           cursor: pointer;
         }
+      
         .child1{
             background-image: url('/images/courtny.png');
         }
-        .child1
+        .child2{
+            background-image: url('/images/jeremo.png')
+        }
+        .child3{
+            background-image: url('/images/jeremo2.png');
+        }
+        .child4{
+            background-image: url('/images/jenny.png');
+        }
+        .child5{
+            background-image: url('/images/arlena.png');
+        }
+    }
+}
+.eighth-section{
+    h1{
+        text-align: center;
+        font-size: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    font-family: $main-font;
+    .cars-lates{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 9px;
+        row-gap: 40px;
+        div{
+            transition: 0.5s;
+            p, h1{
+                padding-left: 10px;
+                
+            }
+            h1{
+                font-size: 20px;
+                width: 428px;
+            }
+            p{
+                color: rgba(0, 0, 0, 0.753);
+            }
+        }
+        div:hover{
+            transform: scale(1.03);
+        }
+    }
+}
+.ninth-section{
+    max-width: 1700px;
+    margin: auto;
+    background-color: #F9FBFC;
+    font-family: $main-font;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+.main-ninth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    @media (max-width:768px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        .about-bottom{
+            text-align: center;
+            align-items: center;
+            padding-bottom: 40px;
+        }
+    }
+    .about-bottom{
+        max-width: 502px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h1{
+            font-size: 40px
+        }
+        p{
+            font-size: 18px;
+        }
+        .btn-brand{
+            width: 188px;
+            height: 53px;
+            background-color: #405FF2;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 18px;
+            border-radius: 12px;
+            transition: 0.5s;
+        }
+        .btn-brand:hover{
+            transform: scale(1.2);
+        }
+    }
+    img{
+        width: 100%;
+    }
+
+
+}
+}
+.join-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $main-font;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h1{
+        font-size: 30px;
+    }
+    .signup-form {
+        display: flex;
+        gap: 10px;
+        background: white;
+        padding: 8px;
+        border-radius: 100px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 500px;
+    }
+    .email-input {
+        flex: 1;
+        border: none;
+        outline: none;
+        padding: 12px 20px;
+        font-size: 16px;
+        color: #333;
+        background: transparent;
+    }
+    .email-input::placeholder {
+        color: #999;
+    }
+    .submit-button {
+        border: none;
+        outline: none;
+        background-color: #4F46E5;
+        color: white;
+        padding: 12px 32px;
+        border-radius: 100px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+    .submit-button:hover {
+        background-color: #4338CA;
     }
 }

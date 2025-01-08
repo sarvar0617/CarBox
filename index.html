@@ -1,390 +1,596 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Box Cars</title>
-    <link rel="stylesheet" href="sass/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="sass/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <script src="sidebar.js" defer></script>
-    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/sidebar.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
-
-</head>
-<body>
+  </head>
+  <body>
     <div class="sidebar">
-        <div class="sidebar_icon">
-          <i class="bx bx-x"></i>
-          <!-- <i class='bx bx-menu'></i> -->
-        </div>
-        <div class="sidebar_elements">
-          <ul class="navlinks">
-            <li class="link">
-              <a href="">Home</a>
-            </li>
-            <li class="link">
-              <a href="">Listings </a>
-            </li>
-            <li class="link">
-              <a href="">BLog </a>
-            </li>
-            <li class="link">
-              <a href="">Pages </a>
-            </li>
-            <li class="link">
-                <a href="">About </a>
-              </li>
-              <li class="link">
-                <a href="">Contact </a>
-              </li>
-              
-          </ul>
-          <a href="" class="button-link">
-           Submit Listing
-          </a>
-        </div>
+      <div class="sidebar_icon">
+        <i class="bx bx-x"></i>
+        <!-- <i class='bx bx-menu'></i> -->
       </div>
+      <div class="sidebar_elements">
+        <ul class="navlinks">
+          <li class="link">
+            <a href="">Home</a>
+          </li>
+          <li class="link">
+            <a href="">Listings </a>
+          </li>
+          <li class="link">
+            <a href="">BLog </a>
+          </li>
+          <li class="link">
+            <a href="">Pages </a>
+          </li>
+          <li class="link">
+            <a href="">About </a>
+          </li>
+          <li class="link">
+            <a href="">Contact </a>
+          </li>
+        </ul>
+        <a href="" class="button-link"> Submit Listing </a>
+      </div>
+    </div>
     <header class="header">
-        <nav class="nav">
-            <div class="logo">
-                <div><img src="/images/logo.svg fill.png" alt=""></div>
-                <div class="number-phone"><i  class='bx bx-mobile-alt '></i>+75 123 456 789</div>
-            </div>
-            <ul class="list-navbar">
-                <li>Home</li>
-                <li>Listings</li>
-                <li>BLog</li>
-                <li>Pages</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li><i class='bx bx-user' undefined ></i>Sign in</li>
-            </ul>
-            <a class="submit-listing" href="#">Submit Listing</a>
-        </nav>
-        <div class="menu_icon">
-            <i class="bx bx-menu"></i>
+      <nav class="nav">
+        <div class="logo">
+          <div><img src="/images/logo.svg fill.png" alt="" /></div>
+          <div class="number-phone">
+            <i class="bx bx-mobile-alt"></i>+75 123 456 789
           </div>
+        </div>
+        <ul class="list-navbar">
+          <li>Home</li>
+          <li>Listings</li>
+          <li>BLog</li>
+          <li>Pages</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li><i class="bx bx-user" undefined></i>Sign in</li>
+        </ul>
+        <a class="submit-listing" href="#">Submit Listing</a>
+      </nav>
+      <div class="menu_icon">
+        <i class="bx bx-menu"></i>
+      </div>
     </header>
     <main>
-        <section class="first-section">
-            <p>Find cars for sale and for rent near you</p>
-            <h1>Find Your Dream Car</h1>
-            <div class="like-search">
-                <p>Used Cars</p>
-                <p><span>|</span> Any Makes</p>
-                <p><span>|</span> Any Models</p>
-                <p><span>|</span> All Prices</p>
-                <div class="circle-search"><i class='bx bx-search'></i></div>
-
-
-            </div>
-            <div class="rasm-avto" data-aos="fade-left" data-aos-offset="100"> <img src="images/rasm-avto.png" alt=""></div>
-        </section>
-        <section class="second-section container">
+      <section class="first-section">
+        <p>Find cars for sale and for rent near you</p>
+        <h1>Find Your Dream Car</h1>
+        <div class="like-search">
+          <p>Used Cars</p>
+          <p><span>|</span> Any Makes</p>
+          <p><span>|</span> Any Models</p>
+          <p><span>|</span> All Prices</p>
+          <div class="circle-search"><i class="bx bx-search"></i></div>
+        </div>
+        <div class="rasm-avto" data-aos="fade-left" data-aos-offset="100">
+          <img src="images/rasm-avto.png" alt="" />
+        </div>
+      </section>
+      <section class="second-section container">
         <h1 class="title-type">Browse by Type</h1>
         <div class="types-vehicle">
-           <div class="container-vehicle"> <img src="images/suv.png" alt="">
+          <div class="container-vehicle">
+            <img src="images/suv.png" alt="" />
             <p>Suv</p>
-           </div>
-            <div class="container-vehicle"><img src="images/sedan.svg" alt="">
-                <p>Sedan</p>
-            </div>
-            <div class="container-vehicle"><img src="images/hatchback.svg" alt="">
-                 <p>Hatchback</p>
-            </div>
-            <div class="container-vehicle"><img src="images/coupe.svg" alt="">
-                 <p>Coupe</p>
-            </div>
-            <div class="container-vehicle"><img src="images/hybrid.svg" alt="">
-                <p>Hybrid</p>
-            </div>
-            <div class="container-vehicle"><img src="images/convetible.svg" alt="">
-                 <p>Conventible</p>    
-            </div>
-            <div class="container-vehicle"><img src="images/van.svg" alt="">
-                <p>Van</p>
-            </div>
-            <div class="container-vehicle"><img src="images/truck.svg" alt="">
-                <p>Truck</p>
-            </div>
-            <div class="container-vehicle"><img src="images/electrick.svg" alt="">
-                <p>Electrick</p>
-            </div>
+          </div>
+          <div class="container-vehicle">
+            <img src="images/sedan.svg" alt="" />
+            <p>Sedan</p>
+          </div>
+          <div class="container-vehicle">
+            <img src="images/hatchback.svg" alt="" />
+            <p>Hatchback</p>
+          </div>
+          <div class="container-vehicle">
+            <img src="images/coupe.svg" alt="" />
+            <p>Coupe</p>
+          </div>
+          <div class="container-vehicle">
+            <img src="images/hybrid.svg" alt="" />
+            <p>Hybrid</p>
+          </div>
+          <div class="container-vehicle">
+            <img src="images/convetible.svg" alt="" />
+            <p>Conventible</p>
+          </div>
+          <div class="container-vehicle">
+            <img src="images/van.svg" alt="" />
+            <p>Van</p>
+          </div>
+          <div class="container-vehicle">
+            <img src="images/truck.svg" alt="" />
+            <p>Truck</p>
+          </div>
+          <div class="container-vehicle">
+            <img src="images/electrick.svg" alt="" />
+            <p>Electrick</p>
+          </div>
         </div>
         <div class="bottom-first">
-            <div class="look sell-look">
-                <h1>Are You Looking
-                 For a Car ?</h1>
-                <p>We are committed to providing our customers with
-                 exceptional service.</p>
-                <div class="bottom-image">
-                    <a class="button-start blue-btn" href="">Get Started <i class='bx bx-right-top-arrow-circle'></i></a>
-                    <div><img src="images/car1.png" alt=""></div>
-                </div>
+          <div class="look sell-look">
+            <h1>Are You Looking For a Car ?</h1>
+            <p>
+              We are committed to providing our customers with exceptional
+              service.
+            </p>
+            <div class="bottom-image">
+              <a class="button-start blue-btn" href=""
+                >Get Started <i class="bx bx-right-top-arrow-circle"></i
+              ></a>
+              <div><img src="images/car1.png" alt="" /></div>
             </div>
-            <div class="sell sell-look">
-                <h1>Are You Looking
-                For a Car ?</h1>
-                <p>We are committed to providing our customers with
-                exceptional service.</p>
-              <div class="bottom-image">
-                <a class="button-start black-btn" href="">Get Started <i class='bx bx-right-top-arrow-circle'></i></a>
-                <img src="images/car2.png" alt="">
+          </div>
+          <div class="sell sell-look">
+            <h1>Are You Looking For a Car ?</h1>
+            <p>
+              We are committed to providing our customers with exceptional
+              service.
+            </p>
+            <div class="bottom-image">
+              <a class="button-start black-btn" href=""
+                >Get Started <i class="bx bx-right-top-arrow-circle"></i
+              ></a>
+              <img src="images/car2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="third-section container">
+        <h1 class="title-search">The Most Searched Cars</h1>
+        <div class="teg-p-thrid">
+          <p>In Stock</p>
+          <p>Sedan</p>
+          <p>SUV</p>
+          <p>Convertible</p>
+        </div>
+        <hr class="custom-hr" />
+        <div class="cars-list">
+          <div class="car-popular">
+            <div class="img-popular">
+              <img src="images/popular1.png" alt="" />
+            </div>
+            <div class="middle-carpopular">
+              <h1>Ford Transit – 2021</h1>
+              <p>4.0 D5 PowerPulse Momentum 5dr AWD…</p>
+              <hr />
+              <div class="main-middle">
+                <div>
+                  <img src="images/spidometr.png" alt="" />
+                  <p>2500 Miles</p>
+                </div>
+                <div>
+                  <img src="images/fuel.png" alt="" />
+                  <p>Diesel</p>
+                </div>
+                <div>
+                  <img src="images/position.png" alt="" />
+                  <p>Manual</p>
+                </div>
+              </div>
+              <hr />
+              <div class="bottom-card">
+                <h1>$22,000</h1>
+                <p>View Details</p>
               </div>
             </div>
-        </div>
-        </section>
-        <section class="third-section container">
-            <h1 class="title-search">The Most Searched Cars</h1>
-            <div class="teg-p-thrid">
-                <p>In Stock</p>
-                <p>Sedan</p>
-                <p>SUV</p>
-                <p>Convertible</p>
-               
+          </div>
+          <div class="car-popular">
+            <div class="img-popular">
+              <img src="images/popular2.png" alt="" />
             </div>
-            <hr class="custom-hr">
-            <div class="cars-list">
-                <div class="car-popular">
-                   <div class="img-popular"> <img src="images/popular1.png" alt=""></div>
-                    <div  class="middle-carpopular">
-                    <h1>Ford Transit – 2021</h1>
-                    <p>4.0 D5 PowerPulse Momentum 5dr AWD…</p>
-                    <hr>
-                    <div class="main-middle">
-                        <div><img src="images/spidometr.png" alt=""><p>2500 Miles</p></div>
-                        <div><img src="images/fuel.png" alt=""><p>Diesel</p></div>
-                        <div><img src="images/position.png" alt=""><p>Manual</p></div>
-                    </div>
-                    <hr>
-                    <div class="bottom-card">
-                        <h1>$22,000</h1>
-                        <p>View Details</p>
-                    </div>
-                    </div>
+            <div class="middle-carpopular">
+              <h1>Ford Transit – 2021</h1>
+              <p>4.0 D5 PowerPulse Momentum 5dr AWD…</p>
+              <hr />
+              <div class="main-middle">
+                <div>
+                  <img src="images/spidometr.png" alt="" />
+                  <p>2500 Miles</p>
                 </div>
-                <div class="car-popular">
-                    <div class="img-popular"> <img src="images/popular2.png" alt=""></div>
-                     <div class="middle-carpopular">
-                     <h1>Ford Transit – 2021</h1>
-                     <p>4.0 D5 PowerPulse Momentum 5dr AWD…</p>
-                     <hr>
-                     <div class="main-middle"> 
-                         <div><img src="images/spidometr.png" alt=""><p>2500 Miles</p></div>
-                         <div><img src="images/fuel.png" alt=""><p>Diesel</p></div>
-                         <div><img src="images/position.png" alt=""><p>Manual</p></div>
-                     </div>
-                     <hr>
-                     <div class="bottom-card">
-                         <h1>$22,000</h1>
-                         <p>View Details</p>
-                     </div>
-                     </div>
-                 </div>
-                 <div class="car-popular">
-                    <div class="img-popular"> <img src="images/popular3.png" alt=""></div>
-                     <div  class="middle-carpopular">
-                     <h1>Ford Transit – 2021</h1>
-                     <p>4.0 D5 PowerPulse Momentum 5dr AWD…</p>
-                     <hr>
-                     <div class="main-middle">
-                         <div><img src="images/spidometr.png" alt=""><p>2500 Miles</p></div>
-                         <div><img src="images/fuel.png" alt=""><p>Diesel</p></div>
-                         <div><img src="images/position.png" alt=""><p>Manual</p></div>
-                     </div>
-                     <hr>
-                     <div class="bottom-card">
-                         <h1>$22,000</h1>
-                         <p>View Details</p>
-                     </div>
-                     </div>
-                 </div>
-                 <div class="car-popular">
-                    <div class="img-popular"> <img src="images/popular4.png" alt=""></div>
-                     <div  class="middle-carpopular">
-                     <h1>Ford Transit – 2021</h1>
-                     <p>4.0 D5 PowerPulse Momentum 5dr AWD…</p>
-                     <hr>
-                     <div class="main-middle">
-                         <div><img src="images/spidometr.png" alt=""><p>2500 Miles</p></div>
-                         <div><img src="images/fuel.png" alt=""><p>Diesel</p></div>
-                         <div><img src="images/position.png" alt=""><p>Manual</p></div>
-                     </div>
-                     <hr>
-                     <div class="bottom-card">
-                         <h1>$22,000</h1>
-                         <p>View Details</p>
-                     </div>
-                     </div>
-                 </div>
+                <div>
+                  <img src="images/fuel.png" alt="" />
+                  <p>Diesel</p>
+                </div>
+                <div>
+                  <img src="images/position.png" alt="" />
+                  <p>Manual</p>
+                </div>
+              </div>
+              <hr />
+              <div class="bottom-card">
+                <h1>$22,000</h1>
+                <p>View Details</p>
+              </div>
             </div>
-        </section>
-        <section class="fourth-section another-container">
+          </div>
+          <div class="car-popular">
+            <div class="img-popular">
+              <img src="images/popular3.png" alt="" />
+            </div>
+            <div class="middle-carpopular">
+              <h1>Ford Transit – 2021</h1>
+              <p>4.0 D5 PowerPulse Momentum 5dr AWD…</p>
+              <hr />
+              <div class="main-middle">
+                <div>
+                  <img src="images/spidometr.png" alt="" />
+                  <p>2500 Miles</p>
+                </div>
+                <div>
+                  <img src="images/fuel.png" alt="" />
+                  <p>Diesel</p>
+                </div>
+                <div>
+                  <img src="images/position.png" alt="" />
+                  <p>Manual</p>
+                </div>
+              </div>
+              <hr />
+              <div class="bottom-card">
+                <h1>$22,000</h1>
+                <p>View Details</p>
+              </div>
+            </div>
+          </div>
+          <div class="car-popular">
+            <div class="img-popular">
+              <img src="images/popular4.png" alt="" />
+            </div>
+            <div class="middle-carpopular">
+              <h1>Ford Transit – 2021</h1>
+              <p>4.0 D5 PowerPulse Momentum 5dr AWD…</p>
+              <hr />
+              <div class="main-middle">
+                <div>
+                  <img src="images/spidometr.png" alt="" />
+                  <p>2500 Miles</p>
+                </div>
+                <div>
+                  <img src="images/fuel.png" alt="" />
+                  <p>Diesel</p>
+                </div>
+                <div>
+                  <img src="images/position.png" alt="" />
+                  <p>Manual</p>
+                </div>
+              </div>
+              <hr />
+              <div class="bottom-card">
+                <h1>$22,000</h1>
+                <p>View Details</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="fourth-section another-container">
         <h1 class="title-choose">Why Choose Us?</h1>
         <div class="content-why container">
-            <div>
-                <img src="images/speacial.png" alt="">
-                <h1>Special Financing Offers</h1>
-                <p>Our stress-free finance department that can
-                    find financial solutions to save you money.</p>
-            </div>
-            <div>
-                <img src="images/trust.png" alt="">
-                <h1>Trusted Car Dealership</h1>
-                <p>Our stress-free finance department that can
-                    find financial solutions to save you money.</p>
-            </div>
-            <div>
-                <img src="images/trans.png" alt="">
-                <h1>Transparent Pricing</h1>
-                <p>Our stress-free finance department that can
-                    find financial solutions to save you money.</p>
-            </div>
-            <div>
-                <img src="images/exsport.png" alt="">
-                <h1>Expert Car Service</h1>
-                <p>Our stress-free finance department that can
-                    find financial solutions to save you money.</p>
-            </div>
+          <div>
+            <img src="images/speacial.png" alt="" />
+            <h1>Special Financing Offers</h1>
+            <p>
+              Our stress-free finance department that can find financial
+              solutions to save you money.
+            </p>
+          </div>
+          <div>
+            <img src="images/trust.png" alt="" />
+            <h1>Trusted Car Dealership</h1>
+            <p>
+              Our stress-free finance department that can find financial
+              solutions to save you money.
+            </p>
+          </div>
+          <div>
+            <img src="images/trans.png" alt="" />
+            <h1>Transparent Pricing</h1>
+            <p>
+              Our stress-free finance department that can find financial
+              solutions to save you money.
+            </p>
+          </div>
+          <div>
+            <img src="images/exsport.png" alt="" />
+            <h1>Expert Car Service</h1>
+            <p>
+              Our stress-free finance department that can find financial
+              solutions to save you money.
+            </p>
+          </div>
         </div>
-        </section>
-        <section class="fifth-section container">
-            <h1 class="title-search">Latest Cars</h1>
-            <div class="cars-list">
-
-                <div class="car-popular">
-                   <div class="img-popular"> <img src="images/t-class.png" alt=""></div>
-                    <div  class="middle-carpopular">
-                    <h1>Ford Transit – 2021</h1>
-                    <p>4.0 D5 PowerPulse Momentum 5dr AWD…</p>
-                    <hr>
-                    <div class="main-middle">
-                        <div><img src="images/spidometr.png" alt=""><p>2500 Miles</p></div>
-                        <div><img src="images/fuel.png" alt=""><p>Diesel</p></div>
-                        <div><img src="images/position.png" alt=""><p>Manual</p></div>
-                    </div>
-                    <hr>
-                    <div class="bottom-card">
-                        <h1>$22,000</h1>
-                        <p>View Details</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="car-popular">
-                    <div class="img-popular"> <img src="images/c-class.png" alt=""></div>
-                     <div class="middle-carpopular">
-                     <h1>Ford Transit – 2021</h1>
-                     <p>4.0 D5 PowerPulse Momentum 5dr AWD…</p>
-                     <hr>
-                     <div class="main-middle"> 
-                         <div><img src="images/spidometr.png" alt=""><p>2500 Miles</p></div>
-                         <div><img src="images/fuel.png" alt=""><p>Diesel</p></div>
-                         <div><img src="images/position.png" alt=""><p>Manual</p></div>
-                     </div>
-                     <hr>
-                     <div class="bottom-card">
-                         <h1>$22,000</h1>
-                         <p>View Details</p>
-                     </div>
-                     </div>
-                 </div>
-                 <div class="car-popular">
-                    <div class="img-popular"> <img src="images/ford.png" alt=""></div>
-                     <div  class="middle-carpopular">
-                     <h1>Ford Transit – 2021</h1>
-                     <p>4.0 D5 PowerPulse Momentum 5dr AWD…</p>
-                     <hr>
-                     <div class="main-middle">
-                         <div><img src="images/spidometr.png" alt=""><p>2500 Miles</p></div>
-                         <div><img src="images/fuel.png" alt=""><p>Diesel</p></div>
-                         <div><img src="images/position.png" alt=""><p>Manual</p></div>
-                     </div>
-                     <hr>
-                     <div class="bottom-card">
-                         <h1>$22,000</h1>
-                         <p>View Details</p>
-                     </div>
-                     </div>
-                 </div>
-                 <div class="car-popular">
-                    <div class="img-popular"> <img src="images/new.png" alt=""></div>
-                     <div  class="middle-carpopular">
-                     <h1>Ford Transit – 2021</h1>
-                     <p>4.0 D5 PowerPulse Momentum 5dr AWD…</p>
-                     <hr>
-                     <div class="main-middle">
-                         <div><img src="images/spidometr.png" alt=""><p>2500 Miles</p></div>
-                         <div><img src="images/fuel.png" alt=""><p>Diesel</p></div>
-                         <div><img src="images/position.png" alt=""><p>Manual</p></div>
-                     </div>
-                     <hr>
-                     <div class="bottom-card">
-                         <h1>$22,000</h1>
-                         <p>View Details</p>
-                     </div>
-                     </div>
-                 </div>
+      </section>
+      <section class="fifth-section container">
+        <h1 class="title-search">Latest Cars</h1>
+        <div class="cars-list">
+          <div class="car-popular">
+            <div class="img-popular">
+              <img src="images/t-class.png" alt="" />
             </div>
-            <div class="bottom-fifth">
-                <h1 >Need Some Inspiration?</h1>
+            <div class="middle-carpopular">
+              <h1>Ford Transit – 2021</h1>
+              <p>4.0 D5 PowerPulse Momentum 5dr AWD…</p>
+              <hr />
+              <div class="main-middle">
                 <div>
-                    <a class="bottom-fifth-btn" href="#">Automatics</a>
-                    <a  href="#">SUVs</a>
-                    <a href="#">Electrics Cars</a>
-                    <a href="#">New in Stock</a>
-                    <a href="#">Petrol</a>
-                    <a href="#">Diesel</a>
+                  <img src="images/spidometr.png" alt="" />
+                  <p>2500 Miles</p>
                 </div>
+                <div>
+                  <img src="images/fuel.png" alt="" />
+                  <p>Diesel</p>
+                </div>
+                <div>
+                  <img src="images/position.png" alt="" />
+                  <p>Manual</p>
+                </div>
+              </div>
+              <hr />
+              <div class="bottom-card">
+                <h1>$22,000</h1>
+                <p>View Details</p>
+              </div>
             </div>
-
-        </section>
-       <section class="sixth-section">
+          </div>
+          <div class="car-popular">
+            <div class="img-popular">
+              <img src="images/c-class.png" alt="" />
+            </div>
+            <div class="middle-carpopular">
+              <h1>Ford Transit – 2021</h1>
+              <p>4.0 D5 PowerPulse Momentum 5dr AWD…</p>
+              <hr />
+              <div class="main-middle">
+                <div>
+                  <img src="images/spidometr.png" alt="" />
+                  <p>2500 Miles</p>
+                </div>
+                <div>
+                  <img src="images/fuel.png" alt="" />
+                  <p>Diesel</p>
+                </div>
+                <div>
+                  <img src="images/position.png" alt="" />
+                  <p>Manual</p>
+                </div>
+              </div>
+              <hr />
+              <div class="bottom-card">
+                <h1>$22,000</h1>
+                <p>View Details</p>
+              </div>
+            </div>
+          </div>
+          <div class="car-popular">
+            <div class="img-popular"><img src="images/ford.png" alt="" /></div>
+            <div class="middle-carpopular">
+              <h1>Ford Transit – 2021</h1>
+              <p>4.0 D5 PowerPulse Momentum 5dr AWD…</p>
+              <hr />
+              <div class="main-middle">
+                <div>
+                  <img src="images/spidometr.png" alt="" />
+                  <p>2500 Miles</p>
+                </div>
+                <div>
+                  <img src="images/fuel.png" alt="" />
+                  <p>Diesel</p>
+                </div>
+                <div>
+                  <img src="images/position.png" alt="" />
+                  <p>Manual</p>
+                </div>
+              </div>
+              <hr />
+              <div class="bottom-card">
+                <h1>$22,000</h1>
+                <p>View Details</p>
+              </div>
+            </div>
+          </div>
+          <div class="car-popular">
+            <div class="img-popular"><img src="images/new.png" alt="" /></div>
+            <div class="middle-carpopular">
+              <h1>Ford Transit – 2021</h1>
+              <p>4.0 D5 PowerPulse Momentum 5dr AWD…</p>
+              <hr />
+              <div class="main-middle">
+                <div>
+                  <img src="images/spidometr.png" alt="" />
+                  <p>2500 Miles</p>
+                </div>
+                <div>
+                  <img src="images/fuel.png" alt="" />
+                  <p>Diesel</p>
+                </div>
+                <div>
+                  <img src="images/position.png" alt="" />
+                  <p>Manual</p>
+                </div>
+              </div>
+              <hr />
+              <div class="bottom-card">
+                <h1>$22,000</h1>
+                <p>View Details</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-fifth">
+          <h1>Need Some Inspiration?</h1>
+          <div>
+            <a class="bottom-fifth-btn" href="#">Automatics</a>
+            <a href="#">SUVs</a>
+            <a href="#">Electrics Cars</a>
+            <a href="#">New in Stock</a>
+            <a href="#">Petrol</a>
+            <a href="#">Diesel</a>
+          </div>
+        </div>
+      </section>
+      <section class="sixth-section">
         <div class="items-boxcar container">
-            <div class="title-boxcar">
-                <h1>Who is BoxCar</h1>
-                <p>Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt
-                    mollit anim id es</p>
-            </div>
-            <div class="img">
-                <img src="images/trustpilot.png" alt="">
-                <img src="images/google.png" alt="">
-                <img src="images/birdeye.png" alt="">
-            </div>
+          <div class="title-boxcar">
+            <h1>Who is BoxCar</h1>
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id es
+            </p>
+          </div>
+          <div class="img">
+            <img src="images/trustpilot.png" alt="" />
+            <img src="images/google.png" alt="" />
+            <img src="images/birdeye.png" alt="" />
+          </div>
         </div>
-       </section>
-       <section class="seventh-section">
-        <h1 title="Team">Our Team</h1>
+      </section>
+      <section class="seventh-section container">
+        <h1 class="title-team">Our Team</h1>
         <div class="temates">
-            <div class="child1">
-                <h1>Courtney Henry</h1>
-                <p>Development Manager</p>
-            </div>
-            <div class="child2">
-                    <h1>Courtney Henry</h1>
-                    <p>Development Manager</p>
-            </div>
-            <div class="child3">
-                    <h1>Courtney Henry</h1>
-                    <p>Development Manager</p>
-            </div>
-            <div class="child4" >
-                    <h1>Courtney Henry</h1>
-                    <p>Development Manager</p>
-            </div>
-            <div class="child5">   
-                <h1>Courtney Henry</h1>
-                <p>Development Manager</p></div>
+          <div data-aos="fade-right" class="child1">
+            <h1>Courtney Henry</h1>
+            <p>Development Manager</p>
+          </div>
+          <div data-aos="fade-left" class="child2">
+            <h1>Jerome Bell</h1>
+            <p>Software Developer</p>
+          </div>
+          <div data-aos="fade-right" class="child3">
+            <h1>Jerome Bell</h1>
+            <p>Software Tester</p>
+          </div>
+          <div data-aos="fade-left" class="child4">
+            <h1>Arlene McCoy</h1>
+            <p>Software Developerr</p>
+          </div>
+          <div data-aos="fade-right" class="child5">
+            <h1>Jenny Wilson</h1>
+            <p>UI/UX Designer</p>
+          </div>
         </div>
-
-       </section>
+      </section>
+      <section class="eighth-section container">
+        <h1>Latest Blog Posts</h1>
+        <div class="cars-lates">
+          <div>
+            <img src="images/xb7.png" alt="" />
+            <p>admin <span>|</span> November 22, 2023</p>
+            <h1>2024 BMW ALPINA XB7 with exclusive details, extraordinary</h1>
+          </div>
+          <div>
+            <img src="images/x6.png" alt="" />
+            <p>admin <span>|</span> November 22, 2023</p>
+            <h1>2024 BMW ALPINA XB7 with exclusive details, extraordinary</h1>
+          </div>
+          <div>
+            <img src="images/x5.png" alt="" />
+            <p>admin <span>|</span> November 22, 2023</p>
+            <h1>2024 BMW ALPINA XB7 with exclusive details, extraordinary</h1>
+          </div>
+        </div>
+      </section>
+      <section class="ninth-section">
+        <div class=" main-ninth container">
+          <div class="about-bottom">
+            <h1>Explore Our Premium Brands</h1>
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id es
+            </p>
+            <a class="btn-brand" href="#">Show All Brands</a>
+          </div>
+          <div><img src="images/logo-brand.png.png" alt="" /></div>
+        </div>
+      </section>
+      <section class="join-section container">
+        <h1>Join BoxCar</h1>
+        <p>Receive pricing updates, shopping tips & more!</p>
+        <form class="signup-form">
+            <input 
+                type="email" 
+                class="email-input" 
+                placeholder="Your email address" 
+                required
+            >
+            <button type="submit" class="submit-button">Sign Up</button>
+        </form>
+      </section>
     </main>
+    <footer class="footer container">
+<section class="foot-first">
+    <ul>
+        <strong>Company</strong>
+        <li>About Us</li>
+        <li>Blog</li>
+        <li>Services</li>
+        <li>FAQs</li>
+        <li>Terms</li>
+        <li>Contact Us</li>
+    </ul>
+    <ul>
+        <strong>Quick Links</strong>
+        <li>Get in Touch</li>
+        <li>Help center</li>
+        <li>Live chat</li>
+        <li>How it works</li>
+    </ul>
+    <ul>
+        <strong>Our Brands</strong>
+        <li>Toyota</li>
+        <li>Porsche</li>
+        <li>Audi</li>
+        <li>BMW</li>
+        <li>Ford</li>
+        <li>Nissan</li>
+        <li>Peugeot</li>
+        <li>Volkswagen</li>
+    </ul>
+    <ul>
+        <strong>Vehicles Type</strong>
+        <li>Sedan</li>
+        <li>Hatchback</li>
+        <li>SUV</li>
+        <li>Hybrid</li>
+        <li>Electric</li>
+        <li>Coupe</li>
+        <li>Truck</li>
+        <li>Convertible</li>
+    </ul>
+    <ul>
+        <strong>Sale Hours</strong>
+        <li>Monday – Friday: 09:00AM – 09:00 PM</li>
+        <li>Saturday: 09:00AM – 07:00PM</li>
+        <li>Sunday: Closed</li>
+        <h1>Connect With Us</h1>
+        <div class="icons">
+            <img src="images/face.png" alt="">
+            <img src="images/twit.png" alt="">
+            <img src="images/insta.png" alt="">
+            <img src="images/in.png" alt="">
+        </div>
+    </ul>
+</section>
+    </footer>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
-</body>
+  </body>
 </html>
+

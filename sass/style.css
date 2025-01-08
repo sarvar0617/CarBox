@@ -105,6 +105,33 @@
   cursor: pointer;
 }
 
+.footer {
+  font-family: DM Sans;
+}
+.footer .foot-first {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.footer .foot-first ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  list-style-type: none;
+}
+.footer .foot-first ul strong {
+  font-size: 22px;
+}
+.footer .foot-first ul .icons {
+  cursor: pointer;
+}
+.footer .foot-first ul li {
+  cursor: pointer;
+}
+.footer .foot-first ul li:hover {
+  color: rgba(0, 0, 0, 0.685);
+}
+
 .first-section {
   background-color: #EEF1FB;
   height: 88.7vh;
@@ -727,6 +754,17 @@
 .seventh-section {
   font-family: DM Sans;
 }
+.seventh-section .title-team {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+.seventh-section .temates {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .seventh-section .temates div {
   background-size: cover;
   background-position: center;
@@ -735,9 +773,168 @@
   border-radius: 16px;
   text-align: center;
   padding-top: 20px;
+  cursor: pointer;
 }
 .seventh-section .temates .child1 {
   background-image: url("/images/courtny.png");
+}
+.seventh-section .temates .child2 {
+  background-image: url("/images/jeremo.png");
+}
+.seventh-section .temates .child3 {
+  background-image: url("/images/jeremo2.png");
+}
+.seventh-section .temates .child4 {
+  background-image: url("/images/jenny.png");
+}
+.seventh-section .temates .child5 {
+  background-image: url("/images/arlena.png");
+}
+
+.eighth-section {
+  font-family: DM Sans;
+}
+.eighth-section h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.eighth-section .cars-lates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 9px;
+  row-gap: 40px;
+}
+.eighth-section .cars-lates div {
+  transition: 0.5s;
+}
+.eighth-section .cars-lates div p, .eighth-section .cars-lates div h1 {
+  padding-left: 10px;
+}
+.eighth-section .cars-lates div h1 {
+  font-size: 20px;
+  width: 428px;
+}
+.eighth-section .cars-lates div p {
+  color: rgba(0, 0, 0, 0.753);
+}
+.eighth-section .cars-lates div:hover {
+  transform: scale(1.03);
+}
+
+.ninth-section {
+  max-width: 1700px;
+  margin: auto;
+  background-color: #F9FBFC;
+  font-family: DM Sans;
+  margin-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.ninth-section .main-ninth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .ninth-section .main-ninth {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .ninth-section .main-ninth .about-bottom {
+    text-align: center;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+}
+.ninth-section .main-ninth .about-bottom {
+  max-width: 502px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ninth-section .main-ninth .about-bottom h1 {
+  font-size: 40px;
+}
+.ninth-section .main-ninth .about-bottom p {
+  font-size: 18px;
+}
+.ninth-section .main-ninth .about-bottom .btn-brand {
+  width: 188px;
+  height: 53px;
+  background-color: #405FF2;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  border-radius: 12px;
+  transition: 0.5s;
+}
+.ninth-section .main-ninth .about-bottom .btn-brand:hover {
+  transform: scale(1.2);
+}
+.ninth-section .main-ninth img {
+  width: 100%;
+}
+
+.join-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: DM Sans;
+  gap: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.join-section h1 {
+  font-size: 30px;
+}
+.join-section .signup-form {
+  display: flex;
+  gap: 10px;
+  background: white;
+  padding: 8px;
+  border-radius: 100px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+.join-section .email-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #333;
+  background: transparent;
+}
+.join-section .email-input::-moz-placeholder {
+  color: #999;
+}
+.join-section .email-input::placeholder {
+  color: #999;
+}
+.join-section .submit-button {
+  border: none;
+  outline: none;
+  background-color: #4F46E5;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.join-section .submit-button:hover {
+  background-color: #4338CA;
 }
 
 * {
