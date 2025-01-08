@@ -786,7 +786,11 @@
         font-weight: 500;
         cursor: pointer;
         transition: background-color 0.2s ease;
+        @media (max-width:768px) {
+            padding: 6px 8px;
+        }
     }
+
     .submit-button:hover {
         background-color: #4338CA;
     }

@@ -4,6 +4,12 @@
         display: flex;
         justify-content: space-between;
         padding-bottom: 30px;
+        gap: 40px;
+        row-gap: 60px;
+        @media (max-width:768px) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
         ul{
             display: flex;
             flex-direction: column;

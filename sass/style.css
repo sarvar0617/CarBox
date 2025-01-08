@@ -112,6 +112,14 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
+  gap: 40px;
+  row-gap: 60px;
+}
+@media (max-width: 768px) {
+  .footer .foot-first {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 .footer .foot-first ul {
   display: flex;
@@ -932,6 +940,11 @@
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.2s ease;
+}
+@media (max-width: 768px) {
+  .join-section .submit-button {
+    padding: 6px 8px;
+  }
 }
 .join-section .submit-button:hover {
   background-color: #4338CA;
