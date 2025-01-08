@@ -445,12 +445,14 @@
 .fourth-section {
   font-family: DM Sans;
   background-color: #F9FBFC;
-  max-width: 1800px;
-  height: 490px;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 150px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 .fourth-section .title-choose {
   text-align: center;
@@ -467,6 +469,7 @@
     justify-content: center;
     -moz-column-gap: 100px;
          column-gap: 100px;
+    padding-top: 60px;
   }
 }
 @media (max-width: 768px) {
@@ -487,6 +490,254 @@
 }
 .fourth-section .content-why div p {
   font-size: 15px;
+}
+
+.fifth-section {
+  font-family: DM Sans;
+}
+.fifth-section .title-search {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.fifth-section .teg-p-thrid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+.fifth-section .teg-p-thrid p {
+  font-weight: 500;
+  font-size: 18px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+.fifth-section .teg-p-thrid p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background: #405FF2;
+  transition: width 0.3s ease-in-out;
+}
+.fifth-section .teg-p-thrid p:hover::after {
+  width: 100%;
+}
+.fifth-section .cars-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media (min-width: 769px) and (max-width: 1320px) {
+  .fifth-section .cars-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .fifth-section .cars-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.fifth-section .cars-list .car-popular {
+  width: 328px;
+  height: 432.14px;
+  border-radius: 16px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.fifth-section .cars-list .car-popular .img-popular img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.fifth-section .cars-list .car-popular .middle-carpopular {
+  background-color: rgba(5, 11, 32, 0.862745098);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Matnga soya qo'shish */
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.fifth-section .cars-list .car-popular .main-middle {
+  display: flex;
+  justify-content: space-between;
+}
+.fifth-section .cars-list .car-popular .main-middle div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fifth-section .cars-list .car-popular .bottom-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fifth-section .cars-list .car-popular:hover {
+  transform: scale(1.1);
+}
+.fifth-section .bottom-fifth {
+  display: flex;
+  flex-direction: column;
+  padding-top: 90px;
+}
+@media (max-width: 768px) {
+  .fifth-section .bottom-fifth {
+    align-items: center;
+    text-align: center;
+  }
+  .fifth-section .bottom-fifth div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.fifth-section .bottom-fifth h1 {
+  font-size: 40px;
+}
+.fifth-section .bottom-fifth div {
+  display: flex;
+  padding-top: 30px;
+  gap: 20px;
+}
+.fifth-section .bottom-fifth div a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.281);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.fifth-section .bottom-fifth div a:hover {
+  transform: scale(1.2);
+  background-color: #405FF2;
+  color: white;
+}
+.fifth-section .bottom-fifth div .bottom-fifth-btn {
+  height: 60px;
+  width: 178px;
+}
+.fifth-section .bottom-fifth div a:nth-child(2) {
+  width: 90px;
+  height: 60px;
+}
+.fifth-section .bottom-fifth div a:nth-child(3) {
+  width: 156px;
+  height: 60px;
+}
+.fifth-section .bottom-fifth div a:nth-child(4) {
+  width: 156px;
+  height: 60px;
+}
+.fifth-section .bottom-fifth div a:nth-child(5) {
+  width: 96px;
+  height: 60px;
+}
+.fifth-section .bottom-fifth div a:nth-child(6) {
+  width: 96px;
+  height: 60px;
+}
+
+.sixth-section {
+  max-width: 1700px;
+  font-family: DM Sans;
+  width: 100%;
+  margin-top: 50px;
+  background-color: #405FF2;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+  border-radius: 16px;
+}
+@media (max-width: 768px) {
+  .sixth-section {
+    display: none;
+  }
+}
+.sixth-section .items-boxcar {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 769px) and (max-width: 1320px) {
+  .sixth-section .items-boxcar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .sixth-section .items-boxcar .title-boxcar {
+    margin-bottom: 30px;
+  }
+  .sixth-section .items-boxcar .title-boxcar h1 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .sixth-section .items-boxcar .title-boxcar p {
+    margin-bottom: -20px;
+  }
+}
+.sixth-section .items-boxcar .title-boxcar {
+  width: 345px;
+  height: 150px;
+  color: white;
+}
+.sixth-section .items-boxcar .title-boxcar h1 {
+  font-size: 40px;
+}
+.sixth-section .items-boxcar .img {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  justify-content: flex-end;
+}
+@media (min-width: 769px) and (max-width: 1320px) {
+  .sixth-section .items-boxcar .img {
+    justify-content: center;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+    row-gap: 20px;
+  }
+}
+.sixth-section .items-boxcar .img img {
+  width: 25%;
+  height: auto;
+  transition: 0.5s;
+}
+.sixth-section .items-boxcar .img img:hover {
+  transform: scale(1.05);
+}
+
+.seventh-section {
+  font-family: DM Sans;
+}
+.seventh-section .temates div {
+  background-size: cover;
+  background-position: center;
+  width: 256px;
+  height: 393.84px;
+  border-radius: 16px;
+  text-align: center;
+  padding-top: 20px;
+}
+.seventh-section .temates .child1 {
+  background-image: url("/images/courtny.png");
 }
 
 * {
