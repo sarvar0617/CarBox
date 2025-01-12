@@ -353,6 +353,8 @@
         justify-content: space-between;
         align-items: center;
         gap: 20px;
+        padding-top: 60px !important;
+        
     @media (min-width:769px) and (max-width:1320px) {
         flex-wrap: wrap;
         justify-content: center;
